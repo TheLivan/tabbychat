@@ -12,11 +12,11 @@ import java.util.List;
 
 public class MacrosContext extends ChatContext {
 
-    private int id; // 0 = execute, 1 = edit, 2 = design
+    private final int id; // 0 = execute, 1 = edit, 2 = design
 
-    public MacrosContext(int name) {
-        this.id = name;
-        switch (name) {
+    public MacrosContext(int id) {
+        this.id = id;
+        switch (id) {
             case 0 -> this.displayString = "Execute Macro";
             case 1 -> this.displayString = "Edit Macro";
             case 2 -> {

@@ -17,8 +17,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class MacroKeybindCompat implements IChatMouseExtension, IChatUpdateExtension,
-    IChatRenderExtension {
+public class MacroKeybindCompat implements IChatMouseExtension, IChatUpdateExtension, IChatRenderExtension {
     public static final ResourceLocation ICONS_MAIN = new ResourceLocation("macros",
                                                                            "textures/gui/macrosGuiMain.png");
     public static boolean present = true;
