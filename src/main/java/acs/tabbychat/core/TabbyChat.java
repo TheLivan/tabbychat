@@ -20,7 +20,6 @@ import acs.tabbychat.settings.ChannelDelimEnum;
 import acs.tabbychat.settings.ColorCodeEnum;
 import acs.tabbychat.settings.FormatCodeEnum;
 import acs.tabbychat.settings.TCChatFilter;
-import acs.tabbychat.threads.BackgroundUpdateCheck;
 import acs.tabbychat.util.ChatComponentUtils;
 import acs.tabbychat.util.TabbyChatUtils;
 import com.google.common.collect.Lists;
@@ -90,7 +89,6 @@ public class TabbyChat {
     public static TCSettingsAdvanced advancedSettings;
     public static TCSpellCheckManager spellChecker;
     private static boolean firstRun = true;
-    private static boolean updateChecked = false;
     private static File chanDataFile;
     private static GuiNewChatTC gnc;
     private static TabbyChat instance = null;
@@ -299,12 +297,6 @@ public class TabbyChat {
     }
 
     public void checkServer() {
-        if (!updateChecked) {
-            updateChecked = true;
-            BackgroundUpdateCheck buc = new BackgroundUpdateCheck();
-            buc.start();
-        }
-
         if (!serverSettings.serverIP.equals(TabbyChatUtils.getServerIp())) {
             this.storeChannelData();
             this.channelMap.clear();
