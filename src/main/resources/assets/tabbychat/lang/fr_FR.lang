@@ -84,7 +84,6 @@ settings.general.timestampcolor=Couleur de l'heure
 settings.general.timestampenable=Heure dans le chat
 settings.general.timestampstyle=Style de l'heure
 settings.general.unreadflashing=Affichage par défaut des notifications non-lues
-settings.general.updatecheckenable=Vérifier les mises à jour
 
 settings.server.autochannelsearch=Activer les onglets canaux 
 settings.server.autopmsearch=Activer les onglets de message privé

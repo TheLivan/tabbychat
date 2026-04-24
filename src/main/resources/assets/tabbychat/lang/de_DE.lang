@@ -83,7 +83,6 @@ settings.general.timestampcolor=Zeitstempel - Farbe
 settings.general.timestampenable=Zeitstempel aktivieren
 settings.general.timestampstyle=Zeitstempel - Stil
 settings.general.unreadflashing=Standardhinweis bei ungelesenen Benachrichtigungen
-settings.general.updatecheckenable=Nach Updates suchen
 
 settings.server.autochannelsearch=Automatische Suche nach neuen Channels
 settings.server.autopmsearch=Enable PM tabs

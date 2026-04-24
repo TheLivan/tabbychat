@@ -83,7 +83,6 @@ settings.general.timestampcolor=Aikaleiman vÃ¤ri
 settings.general.timestampenable=Aikaleima juttelussa
 settings.general.timestampstyle=Aikaleiman tyyli
 settings.general.unreadflashing=Tavallinen lukemattoman viestin vÃ¤lkkyminen
-settings.general.updatecheckenable=Check for Updates
 
 settings.server.autochannelsearch=Etsi automaattisesti uusia kanavia
 settings.server.autopmsearch=Enable PM tabs

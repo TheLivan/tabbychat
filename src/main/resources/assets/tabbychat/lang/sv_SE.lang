@@ -83,7 +83,6 @@ settings.general.timestampcolor=Tidsstämpelfärg
 settings.general.timestampenable=Tidsstämpla chatt
 settings.general.timestampstyle=Tidsstämpelstil
 settings.general.unreadflashing=Blinkade olästa meddelanden som standard
-settings.general.updatecheckenable=Check for Updates
 
 settings.server.autochannelsearch=Sök automatiskt efter nya kanaler
 settings.server.autopmsearch=Sök automatiskt efter nya PMs

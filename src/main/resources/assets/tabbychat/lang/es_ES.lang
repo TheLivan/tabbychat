@@ -83,7 +83,6 @@ settings.general.timestampcolor=Color de hora
 settings.general.timestampenable=Mostrar hora
 settings.general.timestampstyle=Estilo de hora
 settings.general.unreadflashing=Notificación de mensajes no leídos
-settings.general.updatecheckenable=Check for Updates
 
 settings.server.autochannelsearch=Buscar canales automaticamente
 settings.server.autopmsearch=Enable PM tabs

@@ -32,7 +32,6 @@ public class TCSettingsGeneral extends TCSettingsGUI {
     public TCSettingEnum timeStampColor;
     public TCSettingBool groupSpam;
     public TCSettingBool unreadFlashing;
-    public TCSettingBool updateCheckEnable;
     public TCSettingBool splitChatLog;
 
     public TCSettingsGeneral(TabbyChat _tc) {
@@ -52,8 +51,6 @@ public class TCSettingsGeneral extends TCSettingsGUI {
                                       GROUP_SPAM_ID);
         unreadFlashing = new TCSettingBool(true, "unreadFlashing",
                                            this.propertyPrefix, UNREAD_FLASHING_ID);
-        updateCheckEnable = new TCSettingBool(true, "updateCheckEnable",
-                                              this.propertyPrefix, UPDATE_CHECK_ENABLE);
         splitChatLog = new TCSettingBool(false, "splitChatLog",
                                          this.propertyPrefix, SPLIT_CHATLOG);
 
@@ -97,7 +94,6 @@ public class TCSettingsGeneral extends TCSettingsGUI {
         this.buttonList.add(this.timeStampColor);
         this.buttonList.add(this.groupSpam);
         this.buttonList.add(this.unreadFlashing);
-        this.buttonList.add(this.updateCheckEnable);
         this.buttonList.add(this.splitChatLog);
     }
 
@@ -142,10 +138,6 @@ public class TCSettingsGeneral extends TCSettingsGUI {
         this.unreadFlashing.setButtonLoc(col1x, this.rowY(7));
         this.unreadFlashing.setLabelLoc(col1x + 19);
         this.unreadFlashing.buttonColor = buttonColor;
-
-        this.updateCheckEnable.setButtonLoc(col1x, this.rowY(8));
-        this.updateCheckEnable.setLabelLoc(col1x + 19);
-        this.updateCheckEnable.buttonColor = buttonColor;
     }
 
     @Override

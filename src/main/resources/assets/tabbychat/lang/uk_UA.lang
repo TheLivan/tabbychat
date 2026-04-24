@@ -83,7 +83,6 @@ settings.general.timestampcolor=Колір відмітки часу
 settings.general.timestampenable=Відмітка часу чату
 settings.general.timestampstyle=Стиль відмітки часу
 settings.general.unreadflashing=Повідомлення про непрочитане
-settings.general.updatecheckenable=Check for Updates
 
 settings.server.autochannelsearch=Авто пошук нових каналів
 settings.server.autopmsearch=Enable PM tabs

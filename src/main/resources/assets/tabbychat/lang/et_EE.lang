@@ -83,7 +83,6 @@ settings.general.timestampcolor=Ajatempli värv
 settings.general.timestampenable=Ajatembelda vestlus
 settings.general.timestampstyle=Ajatempli vorming
 settings.general.unreadflashing=Lugemata teadete korral vilguta
-settings.general.updatecheckenable=Check for Updates
 
 settings.server.autochannelsearch=Otsi automaatselt uusi kanaleid
 settings.server.autopmsearch=Otsi automaatselt uusi privaatsÃµnumeid

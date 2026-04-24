@@ -83,7 +83,6 @@ settings.general.timestampcolor=Цвет
 settings.general.timestampenable=Пометка времени
 settings.general.timestampstyle=Стиль
 settings.general.unreadflashing=Уведомления по-умолчанию
-settings.general.updatecheckenable=Check for Updates
 
 settings.server.autochannelsearch=Авто-поиск новых каналов
 settings.server.autopmsearch=Enable PM tabs

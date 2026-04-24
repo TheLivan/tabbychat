@@ -131,27 +131,6 @@ public class TabbyChat {
         return instance;
     }
 
-    public static String getNewestVersion() {
-        /*
-        The Old url was resolved to this, unfortunately this domain has gone offline, so I switched to a file on GitHub to notate the latest version
-        http://tabbychat.port0.org/tabbychat/current_version.php?mc=1.7.10
-        String updateURL = "http://tabbychat.port0.org/tabbychat/current_version.php?mc=" + mcversion;
-         */
-        String updateURL = "https://raw.githubusercontent.com/mist475/tabbychat/master/latest";
-
-        try {
-            HttpURLConnection conn = (HttpURLConnection) new URL(updateURL).openConnection();
-            BufferedReader buffer = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-            String newestVersion = buffer.readLine();
-            buffer.close();
-            return newestVersion;
-        }
-        catch (Throwable e) {
-            printErr("Unable to check for TabbyChat update.");
-        }
-        return TabbyChat.version;
-    }
-
     public static void printErr(String err) {
         // System.err.println("[TabbyChat] " + err);
         log.warn("[TABBYCHAT] " + err);

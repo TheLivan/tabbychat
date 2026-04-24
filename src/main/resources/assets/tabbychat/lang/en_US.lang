@@ -84,7 +84,6 @@ settings.general.timestampcolor=Timestamp color
 settings.general.timestampenable=Timestamp chat
 settings.general.timestampstyle=Timestamp style
 settings.general.unreadflashing=Default unread notification flashing
-settings.general.updatecheckenable=Check for Updates
 
 settings.server.autochannelsearch=Enable channel tabs
 settings.server.autopmsearch=Enable PM tabs
